@@ -1,0 +1,10 @@
+namespace: smartops-api
+
+image:
+  imageRepository: docker.io/phengbunath/spring_boot-d3248871
+  tag: 1
+
+service:
+  type: ClusterIP
+  port: 8080
+  targetPort: 8080
